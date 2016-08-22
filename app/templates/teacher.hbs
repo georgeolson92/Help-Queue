@@ -1,0 +1,7 @@
+<h2>Ticket List</h2>
+
+{{#each model as |ticket|}}
+  {{#link-to "ticket" ticket.id}}
+    {{ticket.user}} {{wait-time ticket}}
+  {{/link-to}}
+{{/each}}
