@@ -1,0 +1,14 @@
+{ "tickets": [{
+  "user": "Arndt Bieberstein",
+  "question": "Is there any type in C# that accepts all kinds of delegate types, but it bound to a specific return type? So only functions that return a results of type of ActionResult.",
+  "date": 1471883076272
+}, {
+  "user": "Leaky Nun",
+  "question": "I want to change the destructor of base class from non-virtual to virtual.　But I'm not sure of the consequences. So, what will happen? What more do I need to do to make sure the program works fine after I change it?",
+  "date": 1471883076272
+}, {
+  "user": "Yuan Wen",
+  "question": "Why is it exactly, that when the base-class destructor is non-virtual, the object will not be destroyed correctly?",
+  "date": 1471883076272
+}]
+}

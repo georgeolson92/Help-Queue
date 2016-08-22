@@ -1,0 +1,14 @@
+<form>
+  <div class="form-group">
+    <label for="user">Username:</label>
+    {{input value=user id="user"}}
+  </div>
+
+  <div class="form-group">
+    <label for="question">Describe your problem</label>
+    {{input value=question id="question"}}
+  </div>
+
+
+  <button class="btn btn-success" {{action 'save'}}>Ask</button>
+</form>
