@@ -1,5 +1,7 @@
 {{new-question save="save"}}
 
 {{#each model as |ticket|}}
-  {{ticket-tile ticket=ticket}}
+  {{#link-to "ticket" ticket.id}}
+    {{ticket.user}} {{wait-time ticket}}
+  {{/link-to}}
 {{/each}}
